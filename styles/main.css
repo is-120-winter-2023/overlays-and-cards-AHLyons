@@ -166,3 +166,13 @@ a {
 a[href]:hover {
   color: var(--color-accent-light);
 }
+
+.hero {
+  position: relative;
+  height: 90rem;
+}
+
+.hero .text {
+  position: absolute;
+  color: var(--color-secondary);
+}
