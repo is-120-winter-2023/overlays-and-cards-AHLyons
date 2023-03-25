@@ -93,7 +93,8 @@ img[src$="svg"] {
 /************ add your CSS here *****************/
 
 body {
-  font-family: "Alegreya", sans-serif;
+  font-family: "Delicious Handrawn", sans-serif;
+  font-size: x-large;
   color: var(--color-font);
   /* background-color: var(--color-accent-light); */
   /* display: flex;
@@ -169,10 +170,11 @@ a[href]:hover {
 
 .hero {
   position: relative;
-  height: 90rem;
+  height: 50rem;
 }
 
 .hero .text {
   position: absolute;
-  color: var(--color-secondary);
+  color: white;
+  inset: 0;
 }
