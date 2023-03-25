@@ -97,6 +97,7 @@ body {
   font-size: x-large;
   color: var(--color-font);
   background-color: #747d8c;
+  /* text-align: center; */
   /* display: flex;
   flex-direction: column; */
 }
@@ -181,4 +182,36 @@ a[href]:hover {
   position: absolute;
   color: white;
   inset: 0;
+}
+
+.cards {
+  display: flex;
+  gap: 1rem;
+  margin: 0 1rem;
+}
+
+.card {
+  position: relative;
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  opacity: 80%;
+}
+
+.card:hover {
+  opacity: 100%;
+  transform: scale(1.05);
+  transition: 300ms ease-in-out;
+}
+
+.sr-only {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
 }
